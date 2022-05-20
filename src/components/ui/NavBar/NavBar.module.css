@@ -1,0 +1,26 @@
+.navbar ul{
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+   padding: 1rem;
+   gap: 2rem;
+}
+
+.navbar a, .modalbtn{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   gap: 0.5rem;
+}
+
+.notactive{
+   color: black;
+}
+
+.active{
+   color: red;
+}
+
+.modalbtn:hover{
+   cursor: pointer;
+}
